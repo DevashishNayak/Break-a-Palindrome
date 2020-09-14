@@ -6,7 +6,7 @@ for i in s:
     if i not in a:
         a.append(i)
         a.sort()
-if(len(a)==1 or l==2):
+if(len(a)==1):
     print('IMPOSSIBLE')
 else:
     if(l%2==1):
