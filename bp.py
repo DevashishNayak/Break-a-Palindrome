@@ -1,5 +1,4 @@
 s='aaa'
-c=0
 a=[]
 l=len(s)
 for i in s:
