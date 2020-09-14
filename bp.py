@@ -5,7 +5,7 @@ l=len(s)
 for i in s:
     if i not in a:
         a.append(i)
-        a.sort()
+a.sort()
 if(len(a)==1):
     print('IMPOSSIBLE')
 else:
